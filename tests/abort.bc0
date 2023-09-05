@@ -1,0 +1,25 @@
+C0 C0 FF EE       # magic number
+00 17             # version 11, arch = 1 (64 bits)
+
+00 01             # int pool count
+# int pool
+00 00 27 10
+
+00 00             # string pool total size
+# string pool
+
+00 01             # function count
+# function_pool
+
+#<main>
+00                # number of arguments = 0
+00                # number of local variables = 0
+00 07             # code length = 7 bytes
+13 00 00 # ildc 0             # c[0] = 10000
+10 0A    # bipush 10          # 10
+60       # iadd               # (10000 + 10)
+B0       # return             # 
+
+00 00             # native count
+# native pool
+

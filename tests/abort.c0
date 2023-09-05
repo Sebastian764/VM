@@ -1,0 +1,27 @@
+/**************************************************************************/
+/*              COPYRIGHT Carnegie Mellon University 2023                 */
+/* Do not post this file or any derivative on a public site or repository */
+/**************************************************************************/
+// #use <conio>
+// struct board_data {
+//   // Ignore this field (but don't remove it or change its type)
+//   int test1;
+//   // This part of the struct acts like the key
+//   int board;
+// };
+
+int main () {
+  // struct board_data *test= alloc(struct board_data);
+  // test->test1 = 500000;
+
+  // char[] b = alloc_array(char, 5);
+  // char[] c = alloc_array(char, 65536);
+  // b = c;
+  // //error("assertion failure"); 
+  // string a = "test";
+  // if (8 < 3) {
+  //   assert(false);
+  // }
+  // assert(true);
+  return 10000 + 10;
+}
