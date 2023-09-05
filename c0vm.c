@@ -1,7 +1,4 @@
-/**************************************************************************/
-/*              COPYRIGHT Carnegie Mellon University 2023                 */
-/* Do not post this file or any derivative on a public site or repository */
-/**************************************************************************/
+
 #include <assert.h>
 #include <stdio.h>
 #include <limits.h>
@@ -569,20 +566,6 @@ int execute(struct bc0_file *bc0) {
       break;
     }
 
-
-    /* BONUS -- C1 operations */
-
-    case CHECKTAG:
-
-    case HASTAG:
-
-    case ADDTAG:
-
-    case ADDROF_STATIC:
-
-    case ADDROF_NATIVE:
-
-    case INVOKEDYNAMIC:
 
     default:
       fprintf(stderr, "invalid opcode: 0x%02x\n", P[pc]);
